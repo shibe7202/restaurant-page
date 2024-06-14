@@ -1,10 +1,8 @@
-import Image from './Enchiladas-2-scaled.jpg'
-
-function loadPage() {
+function about() {
     const div = document.querySelector("#content");
 
     const header = document.createElement("h1");
-    header.textContent = "Restaurant Page";
+    header.textContent = "About";
     header.className = "header";
     div.appendChild(header);
 
@@ -13,6 +11,6 @@ function loadPage() {
     description.className = "description";
     div.appendChild(description);
 
-
 }
- export { loadPage };
+
+export { about };
